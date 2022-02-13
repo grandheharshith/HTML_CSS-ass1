@@ -5,3 +5,28 @@
 width: 100%;
 height: 100%;
 }
+
+.row{
+    width: 100%;
+    display: block;
+    border: 1px solid;
+    margin: auto;
+    text-align: left;
+}
+.col{
+    display: inline-block;
+    border: 0px solid;
+    width: 46.71%;
+    height: 100px;
+    margin: auto;
+
+}
+.col{
+    text-align: left;
+}
+
+img{
+    width: 800px;
+    height: 500px;
+    padding: 0px;
+}
