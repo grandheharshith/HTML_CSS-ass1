@@ -53,17 +53,39 @@ element.style {
     text-decoration: underline;
 }
 .app-content-aside{
-    width: 20%;
-    height: calc(100% - 250px);
+    width: 18%;
+    height: 300px;
+    /* border: 1px solid black; */
+    vertical-align: top;
+    background-color: skyblue;
+
 }
 
-.app-content{
+
+.app-content-section{
     display: inline-block;
     vertical-align: top;
+    width: 60%;
+    /* border: 1px solid black; */
+    height: 300px;
+    background-color: skyblue;
+    margin-left: 25px;
+    margin-right: 25px;
+    
 }
+.post-img{
+    padding-left: 120px;
+    padding-top: 30px;
+
+}
+
 #main-content-section{
     width: 59.3%;
 }
 .app-content ul{
     list-style: none;
+
+}
+.app-content{
+    display: inline-block;
 }
