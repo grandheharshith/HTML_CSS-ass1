@@ -13,20 +13,40 @@ height: 100%;
     margin: auto;
     text-align: left;
 }
-.col{
-    display: inline-block;
+.col1{
+
+    float: left;
     border: 0px solid;
-    width: 46.71%;
-    height: 100px;
-    margin: auto;
+    width: 50%;
+    height: 500px;
 
 }
-.col{
-    text-align: left;
+.col2{
+    float: right;
+    width: 50%;
+    height: 500px;
 }
 
 img{
-    width: 800px;
+    width: 100%;
     height: 500px;
     padding: 0px;
+    
+}
+.col3{
+    float: left;
+    width: 50%;
+    height: 500px;
+}
+.col4{
+
+    float: right;
+    width: 50%;
+    height: 500px;
+
+}
+h1{
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 0px;
 }
