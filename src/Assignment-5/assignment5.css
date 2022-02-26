@@ -1,7 +1,54 @@
-/* Our CSS file. */
 
-
+body{
+    margin: 0;
+    height: 100hv;
+    margin: 25px;
+    background-color: lightgrey;
+}
 .container, .content {
 width: 100%;
 height: 100%;
+}
+.card{
+    margin-top: 70px;
+    margin-left: 50px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+}
+.card-left{
+    background-color:lightgreen;
+    flex-basis: 360px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    z-index: 1;
+}
+.card-right{
+    background-color: white;
+    flex-basis: 400px;
+    padding: 50px;  
+    z-index: 0;
+}
+#card-left-img1{
+    padding: 80px;
+    top: -70px;
+    left: -40px;
+    position: absolute;
+}
+#card-left-img2{
+    padding: 30px;
+    width: 430px;
+    left: -5px;
+    position: absolute;
+}
+.card-button{
+    background-color: lightgreen;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+}
+.card-button a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
 }
